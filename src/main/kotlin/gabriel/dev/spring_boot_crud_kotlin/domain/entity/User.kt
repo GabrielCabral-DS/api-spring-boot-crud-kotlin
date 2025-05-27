@@ -1,4 +1,4 @@
-package gabriel.dev.spring_boot_crud_kotlin.domain
+package gabriel.dev.spring_boot_crud_kotlin.domain.entity
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
@@ -11,13 +11,11 @@ data class User(
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     val id : UUID? = null,
-    val name: String = "",
-    val email: String = "",
-    val cpf: String = "",
-    val password: String = "",
-    val phone: String = "",
-    val address: String = "",
-    val city: String = "",
-) {
-
-}
+    var name: String = "",
+    var email: String = "",
+    var cpf: String = "",
+    var password: String = "",
+    var phone: String = "",
+    var address: String = "",
+    var city: String = "",
+)

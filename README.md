@@ -2,8 +2,8 @@
 
 API REST desenvolvida com Kotlin e Spring Boot para cadastro e gerenciamento de produtos. O sistema possui dois perfis de usuários:
 
-ADMIN: Acesso total (CRUD completo)
-FUNCIONÁRIO: Acesso somente leitura (listar e buscar produtos)
+- ADMIN: Acesso total (CRUD completo)
+- FUNCIONÁRIO: Acesso somente leitura (listar e buscar produtos)
 
 :large_blue_circle: [Linkedin](https://www.linkedin.com/in/gabriel-cabral-878482262/)
 
